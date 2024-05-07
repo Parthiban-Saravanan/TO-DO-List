@@ -1,0 +1,89 @@
+body {
+  background-color: #f7f7f7;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.todo-form button {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background-color: #4cae4c;
+}
+
+.filter select {
+  padding: 10px;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fefefe;
+}
+
+.todo-card h3 {
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.todo-card p {
+  color: #666;
+  margin: 0 0 20px 0;
+}
+
+.todo-card select {
+  padding: 5px;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.todo-card button {
+  padding: 5px 10px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-card button:hover {
+  background-color: #c9302c;
+}
